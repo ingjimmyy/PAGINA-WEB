@@ -16,15 +16,91 @@ body {
     align-items: center; 
 }
 
-
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
     font-family:Arial, Helvetica, sans-serif
 }
 
-.header {
+img {
+    width: 90px;
+}
+
+h1 {
+    text-align: center;
+    background: rgb(238, 243, 245);
+    padding: 20px;
+}
+
+.encabezado {
+    width: 100%;
+    background: rgb(32, 151, 86);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemm {
+    padding: 20px 30px;
+    color: white;
+    
+}
+.itemm:hover {
+    background: rgb(19, 119, 64);
+    border-bottom: solid rgb(18, 13, 68);
+}
+
+.listItemm {
+    position: relative;
+}
+
+.slideerr {
+    position: absolute;
+    display: none;
+    top: 43px;
+    background: #2b746d;
+    width: 180px;
+    z-index: 2;
+} 
+
+.listItemm:hover > .slideerr {
+    display: block;
+}
+.slideerr li a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+.slideerr li a:hover {
+    background: rgb(20, 126, 46);
+}
+
+#boton {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+/*diseño del anterior menu con la foto*/
+/* .header {
     background-image: linear-gradient(
         rgba(8, 8, 8, 0.507),
         rgba(23, 78, 23, 0.301)),
@@ -94,7 +170,6 @@ body {
 
 }
 
-/*aqui empiesa red social*/
 .socials {
     display: flex;
   }
@@ -117,7 +192,6 @@ body {
     height: 20px;
   }
 
-  /*aqui termina red social*/
 
 .header-content {
     text-align: center;
@@ -150,7 +224,7 @@ body {
 
 .btn-1:hover{
     background-color: #5cb5bb;
-}
+} */
 
 /*AQUI COMINEZA MI SLIDER GIRATORIO*/
 
@@ -689,12 +763,8 @@ h1 {
     display: block;
     background: #851919;
     color: #FFF;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
     text-decoration: none;
-    text-align: center;
-}
+}   
 
 
 
