@@ -11,9 +11,9 @@
 
     <header class="encabezado">
         <div class="logo__div">
-            <img class="logo"  src="images/logo.svg" alt="">
+            <img class="logo" src="images/logo.svg" alt="">
         </div>
-        <nav>
+        <nav class="menuu" id="menuu">
             <ul class="lista">
                 
                 <li class="listItemm"><a class="itemm" href="#"><i class="fas fa-home"></i>INICIO</a>
@@ -21,30 +21,30 @@
                 <li class="listItemm">
                     <a class="itemm" href="#"><i class="fas fa-warehouse"></i>NOSOTROS</a>
                     <ul class="slideerr">
-                        <li><a href="#">PROGRAMAS</a></li>
+                        <li><a href="#programas">PROGRAMAS</a></li>
                         <li>
-                            <a href="#">QUIENES SOMOS</a>
-                            <a href="#">PROYECTOS REALIZADOS</a>
-                            <a href="#">GALERIA</a>
-                            <a href="#">CONTACTANOS</a>
-                            <a href="#">MAPA</a>
-                            <a href="#">ENLACES DE INTERES</a>
+                            <a href="#quienessomos">QUIENES SOMOS</a>
+                            <a href="#proyectos">NUESTROS PROYECTOS </a>
+                            <a href="#galeria">GALERIA</a>
+                            <a href="#contactanos">CONTACTANOS</a>
+                            <a href="#mapa">MAPA</a>
+                            <a href="#redessociales">ENLACES DE INTERES</a>
                         </li>
                     </ul>
                 </li>
 
                 <li class="listItemm">
-                    <a class="itemm" href="#"><i class="fab fa-servicestack"></i>PROGRAMAS</a>
+                    <a class="itemm" href="#"><i class="fab fa-servicestack"></i>PROYECTOS</a>
                     <ul class="slideerr">
-                        <li><a href="#">HALI WATA</a></li>
+                        <li><a href="#proyectos">HALI WATA</a></li>
                         <li>
-                            <a href="#">INTI A INTI</a>
-                            <a href="#">CUIDADO DEL AGUA</a>
+                            <a href="#proyectos">INTI A INTI</a>
+                            <a href="#proyectos">CUIDADO DEL AGUA</a>
 
                         </li>
                     </ul>
                 </li>
-                <li class="listItemm"><a class="itemm" href="#"><i class="fas fa-location-arrow"></i>CONTACTANOS</a>
+                <li class="listItemm"><a class="itemm" href="#redessociales"><i class="fas fa-location-arrow"></i>REDES SOCIALES</a>
 
         </nav>
         <div class="boton__div">
@@ -52,7 +52,7 @@
         </div>
     </header>
 
-    <H1>FUNDACION INDIGENA FRANSISCA CHAPUEL DE MALES</H1>
+    <H1>FUNDACION INDIGENA </H1>
     <section>
         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, saepe.</P>
     </section>
@@ -254,7 +254,7 @@
 
     </SEction>
 
-
+<section id="programas">   
     <main class="services">
 
         <div class="services-content container">
@@ -280,12 +280,12 @@
                 resolver problemas que afectan a nuestra comunidad. Nuestros programas pueden cubrir áreas
                 como la salud, la educación, la vivienda y el acceso a servicios básicos.
             </p>
-            <a href="#" class="btn-1">Mas informacion</a>
+            <!-- <a href="#" class="btn-1">Mas informacion</a> -->
         </div>
     </main>
-
+</section>
 <!-- AQUI EMPIEZA SECCION DE TALENTO HUMANO Y QUIENES SOMOS -->
-
+<section id="quienessomos"></section>
     <section class="general">
 
         <div class="general-1">
@@ -320,7 +320,7 @@
 
 <!-- AQUI INICIA SECCION DE TARJETAS -->
 
-    <SEction>
+    <SEction id="proyectos">
         <div class="title-cards">
             <h2>NUESTROS PROYECTOS REALIZADOS</h2>
         </div>
@@ -332,8 +332,13 @@
         </figure>
         <div class="contenido-card">
             <h3>CUIDADO DEL AGUA</h3>
-            <p>Podemos crear la identidad corporativa de tu empresa. Diseño , Maquetación de folletos, Catálogos, Papelería y mucho más.</p>
-            <a href="#">Leer Màs</a>
+            <p>SUBTITULO 1.</p>
+            <button onclick="toggleContent()">VER MAS</button>
+        </div>
+        <div class="hedden-contenido-card" id="extraContent">
+            <p>
+                contenido 1
+            </p>
         </div>
     </div>
     <div class="card">
@@ -342,8 +347,13 @@
         </figure>
         <div class="contenido-card">
             <h3>VISUALIZACION DEL TIEMPO INTI A INTI</h3>
-            <p>Nosotros creamos y optimizamos tus perfiles en las Redes Sociales. Importantes para que tu presencia online sea completa.</p>
-            <a href="#">Leer Màs</a>
+            <p>SUBTITULO 2.</p>
+            <button onclick="toggleContentt()">VER MAS</button>
+        </div>
+        <div class="hedden-contenido-card" id="extraContentt">
+            <p>
+                contenido 2
+            </p>
         </div>
     </div>
     <div class="card">
@@ -352,10 +362,14 @@
         </figure>
         <div class="contenido-card">
             <h3>HALI WATA</h3>
-            <p>Creamos tu página web utilizando las últimas tecnologías disponibles. Una Web adaptativa a tu móvil o Tablet y con un gestor de contenido fácil.</p>
-            <a href="#">Leer Màs</a>
+            <p>SUBTITULO 3.</p>
+            <button onclick="toggleContenttt()">VER MAS</button>
         </div>
-    </div>
+        <div class="hedden-contenido-card" id="extraContenttt">
+            <p>
+                Cotenido 3
+            </p>
+        </div>
     </div>
 
     </SEction>
@@ -367,7 +381,7 @@
 
 <!-- aqui comienza la seccion de mi galeria -->
 
-    <section>
+    <section id="galeria">
         <h1>Galeria de imagenes</h1>
         <span class="linea"></span>
         <section class="galeria">
@@ -499,38 +513,26 @@
                         </p>
                     </div>
     
-                    <div class="txt">
+                    <!-- <div class="txt">
                         <h4>REDES SOCIALES</h4>
                         
-                        <div class="socials">
-                            <a href="#">
-                                <div class="social">
-                                    <img src="images/s1.svg" alt="">
-                                </div>
-                            </a>
-    
-                            <a href="#">
-                                <div class="social">
-                                    <img src="images/s2.svg" alt="">
-                                </div>
-                            </a>
-    
-                            <a href="#">
-                                <div class="social">
-                                    <img src="images/s3.svg" alt="">
-                                </div>
-                            </a>
+                        <div class="box">
+                            <div class="red-social">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-envelope-o"></a>
+                                <a href="#" class="fa fa-whatsapp"></a>
+                            </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
     
-        <section>
+        <section id="mapa">
             <iframe class="map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.739948045532!2d-77.52292205857613!3d0.8589580260150664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e291507052fb4c7%3A0x7ec759ae4232c8c0!2zQ8OzcmRvYmEsIE5hcmnDsW8!5e0!3m2!1ses!2sco!4v1713046280815!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     
-    <section>
+    <section id="redessociales">
         <script src="https://kit.fontawesome.com/4db3f232fb.js" crossorigin="anonymous"></script>
         <footer class="pie-pagina">
             <div class="grupo-1">
@@ -549,9 +551,9 @@
                 <div class="box">
                     <h2>REDES SOCIALES</h2>
                     <div class="red-social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-envelope-o"></a>
-                        <a href="#" class="fa fa-whatsapp"></a>
+                        <a href="https://www.facebook.com/asoin.lafrontera" target="_blank" class="fa fa-facebook"></a>
+                        <a href="mailto:saramarluc@gmail.com" target="_blank" class="fa fa-envelope-o"></a>
+                        <a href="https://wa.me/3235992360" target="_blank" class="fa fa-whatsapp"></a>
                     </div>
                 </div>
             </div>

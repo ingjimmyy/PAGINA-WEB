@@ -1,3 +1,30 @@
+/*aqui empieza configuracion de boton menu para ocultar y aparecer en celular*/
+let boton=document.getElementById("boton");
+let nav=document.getElementById ("menuu")
+let con=true
+function menuu(){
+    if (con) {
+        nav.style.left ="0"
+        con=false   
+        
+    } else {
+        nav.style.left ="-100%"
+        con=true   
+    }
+}
+boton.addEventListener("click" ,menuu)
+/*aqui termina configuracion de boton menu para ocultar y aparecer en celular*/
+
+/*aqui comienza para dar click al menu y que aparescan los submenus*/
+
+$("itemm").click(function(){
+    let target=$(this).parent().childrem(".slideerr")
+    $(target).slideerrtoggle(show)
+})
+/*aqui termina para dar click al menu y que aparescan los submenus*/
+
+
+
 /*CONFIGURACION DE VER MAS*/
 function ShowHide(){
     var containera = document.getElementsByClassName("containera") [0];
@@ -60,3 +87,33 @@ function showSlider(type){
         next.click();
     }, timeAutoNext)
 }
+
+/*primera tarjeta*/
+function toggleContent() {
+    var extraContent = document.getElementById("extraContent");
+    if (extraContent.style.display === "none") {
+        extraContent.style.display = "block";
+    } else {
+        extraContent.style.display = "none";
+    }
+}
+/*segunda tarjeta*/
+function toggleContentt() {
+    var extraContentt = document.getElementById("extraContentt");
+    if (extraContentt.style.display === "none") {
+        extraContentt.style.display = "block";
+    } else {
+        extraContentt.style.display = "none";
+    }
+}
+/*tercera tarjeta*/
+function toggleContenttt() {
+    var extraContenttt = document.getElementById("extraContenttt");
+    if (extraContenttt.style.display === "none") {
+        extraContenttt.style.display = "block";
+    } else {
+        extraContenttt.style.display = "none";
+    }
+}
+
+
