@@ -40,9 +40,12 @@ h1 {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     position: fixed; /*aqui colo    que la seccion del menu fijo*/
     z-index: 1000;
+    /* margin-top: 50px; */
+    /* padding-bottom: 20px; */
+    
 }
 
 ul {
@@ -977,48 +980,6 @@ h1 {
 
 
 
-    /* .menu {
-        padding: 5px;
-        justify-content: space-between;
-    }
-
-    .menu label {
-        display: initial;
-    }
-
-    .socials {
-        display: none;
-    }
-
-    .menu .navbar {
-        position: absolute;
-        top: 50%;
-        left: 0;
-        right: 0;
-        background-color: #323337;
-        display: none;
-    }
-
-    .menu .navbar ul li {
-        width: 100%;
-    }
-
-    #menu:checked ~ .navbar {
-        display: initial;
-    }
-
-    .header {
-        min-width: 0vh;
-    }
-
-    .header-content {
-        padding: 100px 30px;
-    }
-
-    .header-content p {
-        padding: 0;
-    } */
-
     /*aqui empiesa el respoint de mi slider*/
 
     .carousel .list .item .content {
@@ -1032,7 +993,8 @@ h1 {
     }
     
     .carousel .list .item .imgg {
-        width: 100vw;
+        /* width: 100vw; */
+        max-width: 100%;
     }
 
     /*aqui termina mi respoin de mi slider*/
