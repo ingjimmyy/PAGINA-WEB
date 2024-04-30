@@ -20,17 +20,21 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+
+    
 }
 
 img {
-    width: 90px;
+    width: 70px;
 }
 
 h1 {
     text-align: center;
     background: rgb(238, 243, 245);
-    padding: 20px;
+    padding: 100px;
+    color: #187257;
+    font-family:monospace
 }
 
 .encabezado {
@@ -39,12 +43,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 70px;
     padding: 0 20px; /*este es para centrar un pooco el logo del menu y la imagen salchicha*/
-    position: fixed; /*aqui colo    que la seccion del menu fijo*/
+    position:fixed; /*aqui colo    que la seccion del menu fijo*/
     z-index: 1000;
-    /* margin-top: 50px; */
-    /* padding-bottom: 20px; */
+    /* padding-bottom: 20px;
+    border-bottom: 1px solid; */
+
     
 }
 
