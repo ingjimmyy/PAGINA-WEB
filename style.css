@@ -40,7 +40,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     height: 90px;
-    /* padding: 0 20px; */
+    padding: 0 20px; /*este es para centrar un pooco el logo del menu y la imagen salchicha*/
     position: fixed; /*aqui colo    que la seccion del menu fijo*/
     z-index: 1000;
     /* margin-top: 50px; */
@@ -873,7 +873,7 @@ h1 {
     max-width: 1200px;
     margin: auto;
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap:50px;
     padding: 45px 0px;
 }
@@ -885,14 +885,14 @@ h1 {
     align-items: center;
 }
 .pie-pagina .grupo-1 .box figure img{
-    width: 250px;
+    width: 150px;
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p{
+.pie-pagina .grupo-1 .box a{
     color: #efefef;
     margin-bottom: 10px;
 }
@@ -930,10 +930,10 @@ h1 {
     }
     .menuu {
         width: 350px;
-        height: calc(100vh - 60px);
+        height: calc(40vh - 60px);
         background: #187257;
         position: absolute;
-        top: 60px;
+        top: 100px;
         left: -100%;
         transition: all 1s;
 
@@ -1093,8 +1093,8 @@ h1 {
 
       .pie-pagina .grupo-1{
         width: 90%;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 2fr);
         grid-gap:30px;
-        padding: 35px 0px;
+        padding: 45px 0px;
     }
 }
