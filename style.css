@@ -113,132 +113,6 @@ a {
     display:  none;
 }
 
-/*diseño del anterior menu con la foto*/
-/* .header {
-    background-image: linear-gradient(
-        rgba(8, 8, 8, 0.507),
-        rgba(23, 78, 23, 0.301)),
-        url(images/fondo1.JPG);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-height: 90vh;
-    display: flex;
-    align-items: center;
-    text-align: justify;
-}
-
-.menu{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo{
-    color: #FFFDFC;
-        font-size: 25px;
-        font-weight: 800;
-}
-
-.logo-img{
-    width: 100px;
-
-}
-
-
-.menu .navbar ul li {
-    position: relative;
-    float: left;
-}
-
-.menu .navbar ul li a {
-    font-size: 18xp;
-    padding: 20px;
-    color: #FFFDFC;
-    display: block;
-    font-weight: 600;
-}
-
-.menu .navbar ul li a:hover {
-    color: #CE967B;
-
-}
-
-#menu {
-    display: none;
-}
-
-.menu-icono {
-    width: 25px;
-}
-
-.menu label {
-    cursor: pointer;
-    display: none;
-    
-
-
-}
-
-.socials {
-    display: flex;
-  }
-  
-  .social {
-    margin: 0 10px;
-    height: 40px;
-    width: 40px;
-    border: 1px solid #b36335; 
-    border-radius: 50%;
-  }
-  
-  .social:hover {
-    background-color: #5b4bb9;
-  }
-  
-  .social img {
-    margin: 10px 0 0 10px;
-    width: 20px;
-    height: 20px;
-  }
-
-
-.header-content {
-    text-align: center;
-}
-
-.header-content h1 {
-    font-size: 40px;
-    line-height: 80px;
-    color: #f7f7f7;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-
-.header-content p {
-    font-size: 16px;
-    color: #ffffff;
-    padding: 0 250px;
-    margin-bottom: 0px;
-    text-align: justify;
-    font-weight: bold;
-}
-
-.btn-1{
-    display: inline-block;
-    padding: 11px 35px;
-    background-color: #47be51;
-    color: #eff2f3;
-    text-transform: uppercase;
-}
-
-.btn-1:hover{
-    background-color: #5cb5bb;
-} */
 
 /*AQUI COMINEZA MI SLIDER GIRATORIO*/
 
@@ -1056,7 +930,7 @@ h1 {
 
 /*AQUI EMPIEZA MI GALERIA*/
     .galeria {
-        grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax (400px, 1fr));
     }
     
     .close {
