@@ -575,6 +575,32 @@ p {
 
 /*AQUI TERMINA LA SECCION DE TARJETA*/
 
+/*AQUI COMIENZA MI NUEVA GALERIA*/
+
+.nuevagaleria {
+    position: relative;
+    min-height: 100vh;
+    background: #ddd;
+}
+
+.nuevagaleria .imagee-nuevagaleria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nuevagaleria .imagee-nuevagaleria .imagee {
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+    max-width: 100%;
+}
+/*AQUI TERMINA MI NUEVA GALERIA*/
 
 /*AQUI COMIENZA MI GALERIA*/
 
